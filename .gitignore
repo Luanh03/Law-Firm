@@ -1,0 +1,93 @@
+# Arquivos gerados pelo Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+
+# Pastas de publicação e deploy
+publish/
+*.Publish.xml
+
+# Pacotes NuGet
+*.nupkg
+# Pasta de pacotes do NuGet
+packages/
+# Arquivos de lock do NuGet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio Code
+.vscode/
+
+# Logs e arquivos temporários
+*.log
+*.tlog/
+
+# Arquivos de cache
+*.cache
+*.ilk
+*.pdb
+*.idb
+*.iobj
+*.ipdb
+
+# Arquivos temporários de testes
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Configurações locais e Secrets
+appsettings.Development.json
+secrets.json
+
+# Arquivos gerados do IIS Express
+.IISExpress/
+
+# Publish web
+*.Publish.xml
+
+# Arquivos do Rider (se usar)
+.idea/
+
+# Arquivos gerados pelo Resharper (se usar)
+_ReSharper*/
+*.DotSettings.user
+
+# Arquivos de logs do npm/yarn (se usar front-end)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de pacotes do front-end (se usar)
+node_modules/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por pacotes do Entity Framework
+Migrations/
+
+# Diretório de arquivos temporários
+*.tmp
+*.temp
+
+# Configuração do publish profiles
+Properties/PublishProfiles/
+
+# Arquivos gerados pelo Razor
+*.cshtml.generated.cs
+
+# Cache do navegador do browser link
+BrowserLink/
+
+# Pastas de arquivos gerados do Visual Studio para IntelliSense
+.vscode/
+
