@@ -1,3 +1,32 @@
-﻿@{
-	ViewData["Title"] = "Process Page";
+﻿@model Law_Firm.Models.Process
+@{
+	ViewData["Title"] = "Process";
 }
+
+<div class="text-center">
+	<h1>Processos</h1>
+</div>
+<h2>Dados do processo</h2>
+<a role="button" class="btn btn-primary" asp-controller="Process" asp-action="Create">Adicionar novo processo</a>
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">TRT</th>
+			<th scope="col">Raíz do CNPJ</th>
+			<th scope="col">Vara</th>
+			<th scope="col">Processo</th>
+			<th scope="col">Ano</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">1</th>
+			<td>TRT Rio de Janeiro</td>
+			<td>74.200.403/0001-02</td>
+			<td>41ª Vara do Trabalho do Rio de Janeiro</td>
+			<td>0012289-32.2024.5.15.0114</td>
+			<td>2025</td>
+		</tr>
+	</tbody>
+</table>

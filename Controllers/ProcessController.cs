@@ -8,5 +8,10 @@ namespace Law_Firm.Controllers
         {
             return View();
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
